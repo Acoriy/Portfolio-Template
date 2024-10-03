@@ -21,7 +21,7 @@ const Navebare = () => {
         <div className="lg:px-32 px-5 flex flex-row items-center justify-between shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] py-5 ">
             {/* logo */}
             <div>
-               <Link to="/" className="text-black text-3xl font-bold cursor-pointer leading-tight "> Alex. </Link>
+               <Link to="home" className="text-black text-3xl font-bold cursor-pointer leading-tight "> Alex. </Link>
             </div>
            
             
