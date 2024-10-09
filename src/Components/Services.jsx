@@ -13,7 +13,7 @@ const Services = () => {
   const icon5 = <PiGameController size={55} className="text-brightColor"/>
   const icon6 = <BsWordpress size={55} className="text-brightColor"/>
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-backgroundColor lg:px-32 px-5 pt-32">
+    <div className="min-h-screen flex flex-col justify-center items-center bg-backgroundColor lg:px-32 px-5 pt-32 dark:bg-[#161616] dark:text-white">
        <div>
           <h1 className="text-center text-4xl font-bold mb-8">Services</h1>
           <div className="flex flex-wrap justify-center items-center mt-4 gap-5">

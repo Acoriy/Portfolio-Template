@@ -4,8 +4,7 @@ import Expiriences from "./Components/Expiriences";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import Navebare from "./Components/Navebare";
-import PortfulioTeste from "./Components/PortfulioTeste";
-// import Portfulio from "./Components/Portfulio";
+import Portfulio from "./Components/Portfulio";
 import Services from "./Components/Services";
 
 function App() {
@@ -29,12 +28,10 @@ function App() {
          <div id="experences">
            <Expiriences/>
          </div>
-         {/* <div id="portfulio">
-            <Portfulio/>
-         </div> */}
          <div id="portfulio">
-           <PortfulioTeste/>
+            <Portfulio/>
          </div>
+        
        </main>
        <Footer/>
        

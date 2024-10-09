@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/prop-types
 const EducationCard = ({ title }) => {
   return (
-    <div className="w-full mx-auto flex flex-col lg:flex-row gap-8 py-4">
+    <div className="w-full mx-auto flex flex-col lg:flex-row gap-8 py-4 dark:bg-black dark:text-white p-5">
       <div className="w-full lg:w-2/4 ">
         <h2 className="text-lg font-bold ">{title}</h2>
         <div className="mt-2">

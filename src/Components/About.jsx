@@ -12,7 +12,7 @@ const About = () => {
   const skill3 = "w-2/3";
 
   return (
-    <div className="min-h-screen bg-backgroundColor lg:px-32 px-5 pt-32 !scroll-smooth">
+    <div className="min-h-screen bg-backgroundColor lg:px-32 px-5 pt-32 !scroll-smooth dark:bg-[#161616] dark:text-white">
       <h1 className="text-4xl font-bold text-center">About Me</h1>
       <div className="space-y-3 w-full pt-16">
         <h1 className="text-4xl font-semibold">Im Alex Anderson</h1>

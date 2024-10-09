@@ -7,57 +7,56 @@ import Img6  from '../assets/img/project6.jpg'
 
 const Portfulio = () => {
   return (
-   <div className="min-h-screen bg-backgroundColor flex flex-col px-5 lg:px-32">
-     <h1 className="text-center font-semibold text-4xl pb-8 pt-24 lg:mb-4 lg:pt-16">
-       Portfolio
-     </h1>
-   {/* <div className='pt-32 lg:pt-0'>
-   </div> */}
-   <div className="flex flex-col lg:flex-row flex-wrap items-center justify-center gap-10 ">
-     <div className="w-full lg:w-1/4">
-       <img
-         src={Img1}
-         alt="image"
-         className="rounded-md cursor-pointer transform transition-transform hover:scale-110 duration-300 ease-in-out "
-       />
-     </div>
-     <div className="w-full lg:w-1/4">
-       <img
-         src={Img2}
-         alt="image"
-         className="rounded-md cursor-pointer transform transition-transform hover:scale-110 duration-300 ease-in-out "
-       />
-     </div>
-     <div className="w-full lg:w-1/4">
-       <img
-         src={Img3}
-         alt="image"
-         className=" rounded-md cursor-pointer transform transition-transform hover:scale-110 duration-300 ease-in-out "
-       />
-     </div>
-     <div className="w-full lg:w-1/4">
-       <img
-         src={Img4}
-         alt="image"
-         className=" rounded-md cursor-pointer transform transition-transform hover:scale-110 duration-300 ease-in-out "
-       />
-     </div>
-     <div className="w-full lg:w-1/4">
-       <img
-         src={Img5}
-         alt="image"
-         className=" rounded-md cursor-pointer transform transition-transform hover:scale-110 duration-300 ease-in-out "
-       />
-     </div>
-     <div className="w-full lg:w-1/4">
-       <img
-         src={Img6}
-         alt="image"
-         className=" rounded-md transform transition-transform hover:scale-110 duration-300 ease-in-out "
-       />
-     </div>
-   </div>
- </div>
+    <div className=" min-h-screen flex flex-col justify-center items-center lg:px-32 px-5 bg-backgroundColor dark:bg-[#161616] dark:text-white">
+    <h1 className="text-center font-semibold text-4xl pt-24 lg:pt-16 pb-8 lg:mb-4">
+      Portfolio
+    </h1>
+
+    <div className=" flex items-center justify-center flex-wrap gap-10 pb-5 lg:pb-0">
+      <div className=" w-full lg:w-1/4">
+        <img
+          className="transform transition-transform duration-300 hover:scale-110 rounded-md cursor-pointer"
+          src={Img1}
+          alt="img"
+        />
+      </div>
+      <div className=" w-full lg:w-1/4">
+        <img
+          className="transform transition-transform duration-300 hover:scale-110 rounded-md cursor-pointer"
+          src={Img2}
+          alt="img"
+        />
+      </div>
+      <div className=" w-full lg:w-1/4">
+        <img
+          className="transform transition-transform duration-300 hover:scale-110 rounded-md cursor-pointer"
+          src={Img3}
+          alt="img"
+        />
+      </div>
+      <div className=" w-full lg:w-1/4">
+        <img
+          className="transform transition-transform duration-300 hover:scale-110 rounded-md cursor-pointer"
+          src={Img4}
+          alt="img"
+        />
+      </div>
+      <div className=" w-full lg:w-1/4">
+        <img
+          className="transform transition-transform duration-300 hover:scale-110 rounded-md cursor-pointer"
+          src={Img5}
+          alt="img"
+        />
+      </div>
+      <div className=" w-full lg:w-1/4">
+        <img
+          className="transform transition-transform duration-300 hover:scale-110 rounded-md cursor-pointer"
+          src={Img6}
+          alt="img"
+        />
+      </div>
+    </div>
+  </div>
   )
 }
 
