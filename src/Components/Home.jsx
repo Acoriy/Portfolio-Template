@@ -6,7 +6,7 @@ const Home = () => {
       <div className="flex flex-col space-y-4 items-center text-center lg:text-start lg:items-start w-full lg:w-3/4 ">
         <h1 className="text-5xl font-semibold leading-tight mt-24">
           Im Alex Anderson
-          <span className="text-brightColor font-semibold text-5xl">Front-end </span>
+          <span className="text-brightColor font-semibold text-5xl"> Front-end </span>
           Developer
         </h1>
         <p>
